@@ -1,0 +1,37 @@
+header {
+    width: 100%;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+i {
+    color: aliceblue;
+}
+
+.icons {
+    display: flex;
+    gap: 13px;
+
+}
+
+.icons a:hover {
+    i {
+        animation: translateY 0.8s;
+        color: aqua
+    }
+
+}
+
+@keyframes translateY {
+    from {
+        transform: translate(0) scale(1);
+    }
+
+    to {
+        transform: translate(-8px) scale(2);
+    }
+}

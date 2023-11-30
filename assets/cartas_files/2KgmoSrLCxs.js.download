@@ -1,0 +1,3 @@
+;/*FB_PKG_DELIM*/
+
+__d("PolarisSavedPostsActionConstants",[],(function(a,b,c,d,e,f){"use strict";a=12;f.PAGE_SIZE=a}),66);
